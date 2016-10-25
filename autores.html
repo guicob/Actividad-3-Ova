@@ -22,30 +22,31 @@
         	<p>&nbsp;</p>
    			<p>&nbsp;</p>
             <p>&nbsp;</p>
-    		<nav>
-               <ul class="menu">
-                <li><a href="index.html" class="menu">Inicio</a></li>
-                <li><a href="" class="menu">Lecturas</a>
+    		      <nav>
+     <div id="wrap"> <!--Caja contenedora-->
+<ul class="menu" id="navbar"> <!--Lista que define los elementos principales que se muestran siempre-->
+<li><a href="index.html">Inicio</a> <!--Item principal de menú-->
+</li>
+<li><a href="lecturas.html">Lecturas</a> <!--Item principal de menú-->
+<ul> <!--Lista que define subitems de menú que se mostrarán sólo al posicionar el ratón sobre el item principal-->
+<li><a href="ordenamiento1.html">Algoritmos de ordenamiento</a></li> <!--SubItem de menú-->
+<li><a href="ordenamiento2.html">Programación orientada a objetos con C#</a></li>
+<li><a href="ordenamiento3.html">Algoritmos de ordenamiento y busqueda</a></li>
+</ul>
+</li>
+<li><a href="multimedia.html">Multimedia</a></li><!--Item principal de menú-->
+<li><a href="actividades.html">Actividades</a> <!--Item principal de menú-->
+<ul> <!--Lista que define subitems de menú que se mostrarán sólo al posicionar el ratón sobre el item principal-->
+<li><a href="actividades1.html">Actividades 1</a></li> <!--SubItem de menú-->
+<li><a href="actividades2.html">Actividades 2</a></li> <!--SubItem de menú-->
+</ul>         
+</li>
+<li><a href="autores.html">Autores</a>
+</ul>
+<div class="limpiador"></div> <!--Explicado en apartados anteriores del curso-->
+</div>
 
-                <ul class="submenu">
-                  <li><a href="ordenamiento1.html" class="submenu">Algoritmos de Ordenamiento</a></li><br>
-                  <li><a href="ordenamiento2.html" class="submenu">Programación Orientada a Objetos con C#</a></li><br>
-                  <li><a href="ordenamiento3.html" class="submenu">ALGORITMOS DE ORDENACIÓN Y BÚSQUEDA</a></li><br>
-                </ul>
-                
-                </li>
 
-                </li>
-                <li><a href="multimedia.html" class="menu">Multimedia</a></li>
-                <li><a href="" class="menu">Actividades</a>
-
-                <ul class="submenu">
-                    <li><a href="actividades1.html" class="submenu">Actividad 1</a></li><br>
-                    <li><a href="actividades2.html" class="submenu">Actividad 2</a></li><br>
-                </ul>
-
-                </li>
-                <li><a href="autores.html" class="menu">Autores</a></li>
                 <div id="apDiv19">
                 <center>
                 	<div id="cuentavisitas"></div>
@@ -80,21 +81,34 @@
             <div id="apDiv14"><a href="https://campus0a.unad.edu.co/campus0/login/index.php" target="_blank"><img src="img/campus.png" width="116" height="101"></a>									</div>
     <section>
     <h2>Diseño de Sitios Web - UNAD ECBTI</h2>
-    <div id="apDiv20"><a href="https://informacion.unad.edu.co/correo" target="_blank"><img src="img/rss_aqu_32.png" class="menu" title="Correo Institucional" border="0" /></a></div>
+    <div id="apDiv20"><a href="https://informacion.unad.edu.co/correo" target="_blank"><img src="img/rss_aqu_32.png" class="menu" title="Correo Institucional" border="none" /></a></div>
                 <article>
                     <figure>
                         <img src="img/diseno_web.jpg" alt="Diseno">
                   	</figure>
-                    <p>
-                    <div id='Martin'>
-                        Martin Diaz <br>
-                        Código 5833990<br>
-                        Curso de Diseño de sitios web<br>
-                        mdiaz@computec.com<br>
-                        skipe archimart<br>
-                        <img src="img/f1.png" />
-                    </div>
-                    </p>
+                 <table >
+<caption>Autores diseño página Web..</caption>
+<tr> <th>Estudiante 1</th> <th>Estudiante 2</th> <th>Estudiante 3</th>
+<th>Estudiante 4</th> <th>Estudiante 5</th>
+</tr>
+<tr> <td><img src="img\f1.png" height="60px" width= "80px"></td> <td><img src="img\f2.jpg" height="60px" width= "80px"></td> <td><img src="img\f3.jpg" height="60px" width= "80px"></td>
+<td><img src="img\f4.jpg" height="60px" width= "80px"></td> <td><img src="img\f5.jpg" height="60px" width= "80px"></td>
+</tr>
+<tr> <td>Martin Diaz</td> <td>Jorge Diaz</td> <td>Nombres_Estudiante3</td>
+<td>Nombres_Estudiante4</td> <td>Nombres_Estudiante5</td>
+</tr>
+<tr> <td>5'833.990</td> <td>4'585.368</td> <td>Código</td>
+<td>Código</td> <td>Código</td>
+</tr>
+<tr> <td>301122-4</td> <td>301122-4</td> <td>301122-4</td>
+<td>301122-4</td> <td>301122-4</td>
+</tr>
+<tr> <td>Diseño_Web</td> <td>Diseño_Web</td> <td>Diseño_Web</td>
+<td>Diseño_Web</td> <td>Diseño_Web</td>
+</tr>
+</table> 
+
+
       			</article>
     </section>
     <aside>
@@ -113,12 +127,14 @@
               <div id="apDiv16">Nuestra ECBTI</div>
       <div id="apDiv18"><iframe width="260" height="180" src="https://www.youtube.com/embed/Z-rfSPH3ZQA" frameborder="0" allowfullscreen></iframe></div>
     	</aside>
-		<Footer>
-          <div id="apDiv25">Para uso de la Universidad Nacional Abierta y a Distancia UNAD</div>
-          <div id="apDiv26">Elaborado por: Luis Fernando Jaramillo Hernández, estudiante del programa Ing. de Sistemas </div>
-		  <div id="apDiv13"><img src="img/logoUNADgrisInferior.png" width="225" height="41"></div>
-		  <div id="apDiv27">CEAD Dosquebradas - 2016</div>
-    	</Footer>
+		<footer>
+<figure>
+<center><h3><img src="img/footer.png" alt="Derechos Autor"></center>
+<hr>
+<center><img src="img/Normas Iso.jpg" alt="Normas Iso"></center>
+<hr>
+</figure>
+</footer>
    </body>
     <script src="js/modernizr.js"></script>
     <script src="js/prefixfree.min.js"></script>
